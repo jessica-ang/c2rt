@@ -1,0 +1,200 @@
+html {
+    height: 100%;
+}
+body {
+    margin: 0px;
+    background-color: #EFEFEF;
+    position: relative;
+    min-height: 100%;
+    padding-bottom: 100px;
+}
+p{
+    color: #0A6FA8;
+}
+/*------------------------------------header----------------------------------------------*/
+nav {
+    background-color: #0A6FA8;
+}
+.logo {
+    width: 100px;
+}
+nav div a, nav div a:hover, nav div a:visited{
+    padding: 10px;
+    color: #EFEFEF;
+    text-decoration: none;
+    font-size: 20px;
+}
+.barNav{
+    flex-grow: inherit;
+}
+nav div a:hover, nav div a:visited{
+    color: #EFEFEF;
+}
+nav li{
+    text-align: center;
+}
+nav li:hover{
+    background-color: #6B98B0;
+}
+.dd_menu{
+    background-color: #0A6FA8;
+}
+/*------------------------------------------------Section 1---------------------------------------*/
+section:first-child{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.imgFirst{
+    width: 40%;
+}
+/*------------------------------------------------Caroussel--------------------------------------*/
+.divCarousel{
+    width: 40%
+}
+/*----------------------------------------------team---------------------------------------------*/
+.team{
+    width: 60%;
+}
+.teamName{
+    text-align: center;
+    font-size: 25px;
+    color: #171738;
+}
+.teamMail{
+    text-align: end;
+    color: #171738;
+}
+.teamHr{
+    color: #0A6FA8;
+    border-top: #0A6FA8 double 3px;
+    margin-bottom: 30px;
+}
+li{
+    color: #0A6FA8;
+}
+/*-----------------------------------------------formation-------------------------------------------*/
+.formations{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+.formations div{
+    width: 50%;
+    padding: 10px;
+}
+.formations img{
+    width: 50%;
+    padding: 10px;
+}
+table{
+    width: 100%;
+    margin-top: 30px;
+}
+td, th{
+    border: #0A6FA8 2px solid;
+    padding: 10px;
+    text-align: center;
+}
+
+.icon_pdf{
+    width: 50px;
+}
+/*--------------------------formation responsive------------------------------*/
+@media (max-width: 800px) {
+    .formations{
+        flex-direction: column;
+    }
+    .formations2{
+        flex-direction: column-reverse;
+    }
+    .formations div{
+        width: 100%;
+    }
+    .formations img{
+        width: 100%;
+    }
+}
+/*----------------------------------------------contact---------------------------------------------*/
+.important{
+    color: red;
+}
+.divContact{
+    background-color: #87C0D9;
+    border-radius: 25px;
+    width: 60%;
+    padding: 20px;
+}
+.divContact p{
+    font-size: 20px;
+    text-align: center;
+    text-shadow: #6B98B0 1px 0 5px;
+    color: black;
+    margin: 0;
+}
+#map{
+    width: 60%;
+}
+/*----------------------------------------------section------------------------------------------*/
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+section p {
+    text-align: justify;
+}
+h3{
+    color: #171738;
+    font-size: 40px;
+}
+hr{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+/*-------------------------section responsive-----------------------------------*/
+@media (max-width: 800px) {
+    section{
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+}
+/*-----------------------------------------------newsletter-------------------------------------*/
+.hrNewsletter{
+    color: #0A6FA8;
+    border-top: #0A6FA8 solid 2px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.mailBleu{
+    width: 40px;
+}
+/*------------------------------------------------footer----------------------------------------*/
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+footer div:first-child{
+    background-color: #0A6FA8;
+    display: flex;
+    justify-content: center;
+}
+footer div:last-child{
+    background-color: black;
+
+    display: flex;
+    justify-content: center;
+}
+footer p {
+    margin: 7px;
+    color: #EFEFEF;
+}
+footer a {
+    text-decoration: none;
+}
