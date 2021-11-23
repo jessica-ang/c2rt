@@ -9,21 +9,21 @@ require("template/header.php");
         <div class="formations">
             <img src="img/sport.png">
             <div>
-                <h6>Sport et Industrie</h6>
+                <a class="text-decoration-none" href="sport_industrie.php"><h4>Sport et Industrie</h4></a>
                 <p>Integer fermentum consequat est at scelerisque. Vivamus sed sollicitudin nunc. Quisque sapien elit, dapibus et iaculis nec, tincidunt accumsan nunc. Maecenas hendrerit nisi vitae mauris convallis pellentesque. In hac habitasse platea dictumst. Sed vel velit ut lectus ultricies varius a vitae elit. Nunc consequat volutpat est sit amet mollis. Cras vitae mattis lectus. Duis eleifend nisl et nisl venenatis, vel rhoncus magna hendrerit. Proin molestie eu turpis nec tincidunt. Sed vestibulum nunc ut nibh finibus gravida. Vestibulum vitae ex auctor, condimentum diam sit amet, cursus ipsum. In imperdiet aliquam sapien, ac fermentum neque malesuada vel.</p>
             </div>
         </div>
         <div class="formations formations2">
             <div>
-                <h6>Une formation</h6>
+                <h4>Les formations en Industrie</h4>
                 <p>Integer fermentum consequat est at scelerisque. Vivamus sed sollicitudin nunc. Quisque sapien elit, dapibus et iaculis nec, tincidunt accumsan nunc. Maecenas hendrerit nisi vitae mauris convallis pellentesque. In hac habitasse platea dictumst. Sed vel velit ut lectus ultricies varius a vitae elit. Nunc consequat volutpat est sit amet mollis. Cras vitae mattis lectus. Duis eleifend nisl et nisl venenatis, vel rhoncus magna hendrerit. Proin molestie eu turpis nec tincidunt. Sed vestibulum nunc ut nibh finibus gravida. Vestibulum vitae ex auctor, condimentum diam sit amet, cursus ipsum. In imperdiet aliquam sapien, ac fermentum neque malesuada vel.</p>
             </div>
-            <img src="img/formation2.jpg">
+            <img src="img/soudure.jpg">
         </div>
         <div class="formations">
-            <img src="img/soudure.jpg">
+            <img src="img/formation2.jpg">
             <div>
-                <h6>Soudure</h6>
+                <h4>Les formations en Informatique (réseaux, web et bureautique)</h4>
                 <p>Integer fermentum consequat est at scelerisque. Vivamus sed sollicitudin nunc. Quisque sapien elit, dapibus et iaculis nec, tincidunt accumsan nunc. Maecenas hendrerit nisi vitae mauris convallis pellentesque. In hac habitasse platea dictumst. Sed vel velit ut lectus ultricies varius a vitae elit. Nunc consequat volutpat est sit amet mollis. Cras vitae mattis lectus. Duis eleifend nisl et nisl venenatis, vel rhoncus magna hendrerit. Proin molestie eu turpis nec tincidunt. Sed vestibulum nunc ut nibh finibus gravida. Vestibulum vitae ex auctor, condimentum diam sit amet, cursus ipsum. In imperdiet aliquam sapien, ac fermentum neque malesuada vel.</p>
             </div>
         </div>

@@ -10,6 +10,10 @@ body {
 }
 p{
     color: #0A6FA8;
+    font-family: "Acumin Pro";
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: "Lato bold";
 }
 /*------------------------------------header----------------------------------------------*/
 nav {
@@ -84,9 +88,12 @@ li{
     width: 50%;
     padding: 10px;
 }
-.formations img{
+.formations img {
     width: 50%;
     padding: 10px;
+}
+h4{
+    font-size: 20px;
 }
 table{
     width: 100%;
@@ -115,6 +122,21 @@ td, th{
     .formations img{
         width: 100%;
     }
+}
+/*-----------------------------Sport et Industrie--------------------------------------------------*/
+.sport{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+.sport div{
+    width: 70%;
+    padding: 10px;
+}
+.sport img {
+    width: 30%;
+    padding: 10px;
 }
 /*----------------------------------------------contact---------------------------------------------*/
 .important{
