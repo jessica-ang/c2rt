@@ -2,9 +2,6 @@
 require("template/header.php");
 ?>
     <section>
-        <img class="imgFirst" src="img/formation.jpg">
-    </section>
-    <section>
         <h3>Nos Formations</h3>
         <div class="formations">
             <img src="img/sport.png">
@@ -32,7 +29,7 @@ require("template/header.php");
     <section>
         <h3>Calendrier des formations</h3>
         <table>
-            <tr>
+            <tr class="row_title">
                 <th>Nom</th>
                 <th>Date</th>
                 <th>Lieux</th>
@@ -40,7 +37,7 @@ require("template/header.php");
                 <th>Temps</th>
                 <th>Plaquette</th>
             </tr>
-            <tr>
+            <tr class="row1">
                 <td></td>
                 <td></td>
                 <td></td>
@@ -48,7 +45,7 @@ require("template/header.php");
                 <td></td>
                 <td><a href="" download><img class="icon_pdf" src="img/icon-pdf.png"></a></td>
             </tr>
-            <tr>
+            <tr class="row2">
                 <td></td>
                 <td></td>
                 <td></td>

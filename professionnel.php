@@ -2,11 +2,21 @@
 require("template/header.php");
 ?>
     <section>
-        <img class="imgFirst" src="img/professionnel.jpg">
-    </section>
-    <section>
         <h3>Professionnel</h3>
-        <p>Integer fermentum consequat est at scelerisque. Vivamus sed sollicitudin nunc. Quisque sapien elit, dapibus et iaculis nec, tincidunt accumsan nunc. Maecenas hendrerit nisi vitae mauris convallis pellentesque. In hac habitasse platea dictumst. Sed vel velit ut lectus ultricies varius a vitae elit. Nunc consequat volutpat est sit amet mollis. Cras vitae mattis lectus. Duis eleifend nisl et nisl venenatis, vel rhoncus magna hendrerit. Proin molestie eu turpis nec tincidunt. Sed vestibulum nunc ut nibh finibus gravida. Vestibulum vitae ex auctor, condimentum diam sit amet, cursus ipsum. In imperdiet aliquam sapien, ac fermentum neque malesuada vel.</p>
+    </section>
+    <section class="bt_accueil">
+        <a href="interim.php">
+            <img src="img/soudure.jpg">
+            <p>Formations interimaires</p>
+        </a>
+        <a href="sur_mesure.php">
+            <img src="img/formation.jpg">
+            <p>Prestations sur-mesure</p>
+        </a>
+        <a href="partenariat.php">
+            <img src="img/formation2.jpg">
+            <p>Partenariat</p>
+        </a>
     </section>
 <?php
 require("template/footer.php");

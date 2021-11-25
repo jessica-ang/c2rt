@@ -3,28 +3,32 @@ html {
 }
 body {
     margin: 0px;
-    background-color: #EFEFEF;
+    background-color: #6A89CC;
     position: relative;
     min-height: 100%;
     padding-bottom: 100px;
+    width: 100%;
 }
 p{
-    color: #0A6FA8;
-    font-family: "Acumin Pro";
+    color: black;
+    font-family: Garamond;
 }
 h1, h2, h3, h4, h5, h6{
     font-family: "Lato bold";
 }
+a, a:visited{
+    color: #F8C291;
+}
 /*------------------------------------header----------------------------------------------*/
 nav {
-    background-color: #0A6FA8;
+    background-color: #82CCDD;
 }
 .logo {
     width: 100px;
 }
 nav div a, nav div a:hover, nav div a:visited{
     padding: 10px;
-    color: #EFEFEF;
+    color: white;
     text-decoration: none;
     font-size: 20px;
 }
@@ -32,16 +36,81 @@ nav div a, nav div a:hover, nav div a:visited{
     flex-grow: inherit;
 }
 nav div a:hover, nav div a:visited{
-    color: #EFEFEF;
+    color: white;
 }
 nav li{
     text-align: center;
 }
 nav li:hover{
-    background-color: #6B98B0;
+    background-color: #6A89CC;
 }
 .dd_menu{
-    background-color: #0A6FA8;
+    background-color: #82CCDD;
+    width: max-content;
+}
+/*---------------------------------------------banner-------------------------------------------*/
+.banner{
+    margin: 0;
+    position: relative;
+}
+.banner img{
+    width: 100%;
+    opacity: 70%;
+}
+.banner div{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    width: 80%;
+}
+.banner p{
+    font-size: 1.1vw;
+    color: white;
+    font-weight: bold;
+    text-align: justify;
+    text-shadow: black 2px 2px 3px;
+}
+.banner2{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: #B8E994;
+}
+.banner2 img{
+    width: 30%;
+}
+.banner2 div{
+    width: 70%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.banner2 p{
+    color: black;
+    font-size: 1vw;
+}
+/*----------------------------------------------responsible banner-----------------------------------*/
+@media (max-width: 800px) {
+    .banner img{
+        width: 170%;
+    }
+    .banner p{
+        font-size: 2vw;
+    }
+    .banner2{
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner2 img{
+        display: none;
+    }
+    .banner2 div{
+        width: 95%;
+    }
+    .banner2 p{
+        font-size: 2vw;
+    }
 }
 /*------------------------------------------------Section 1---------------------------------------*/
 section:first-child{
@@ -51,6 +120,46 @@ section:first-child{
 }
 .imgFirst{
     width: 40%;
+}
+/*--------------------------------------------index + transitions--------------------------------------------*/
+.bt_accueil {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.bt_accueil a{
+    position: relative;
+    width: 40%;
+    margin: 30px;
+}
+.bt_accueil img {
+    width: 100%;
+}
+.bt_accueil p{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    font-size: 3vw;
+    width: 85%;
+    color: white;
+    font-weight: bold;
+    text-shadow: black 3px 3px 4px;
+    text-align: center;
+}
+/*-----------------------------responsive index + transitions-----------------------------------*/
+@media (max-width: 800px) {
+    .bt_accueil {
+        display: flex;
+        flex-direction: column;
+    }
+    .bt_accueil p{
+        font-size: 5vw;
+    }
+    .bt_accueil a{
+        width: 90%;
+    }
 }
 /*------------------------------------------------Caroussel--------------------------------------*/
 .divCarousel{
@@ -63,19 +172,19 @@ section:first-child{
 .teamName{
     text-align: center;
     font-size: 25px;
-    color: #171738;
+    color: black;
 }
 .teamMail{
     text-align: end;
-    color: #171738;
+    color: black;
 }
 .teamHr{
-    color: #0A6FA8;
-    border-top: #0A6FA8 double 3px;
+    color: black;
+    border-top: black double 4px;
     margin-bottom: 30px;
 }
 li{
-    color: #0A6FA8;
+    color: black;
 }
 /*-----------------------------------------------formation-------------------------------------------*/
 .formations{
@@ -93,20 +202,29 @@ li{
     padding: 10px;
 }
 h4{
-    font-size: 20px;
+    font-size: 30px;
 }
 table{
     width: 100%;
     margin-top: 30px;
 }
 td, th{
-    border: #0A6FA8 2px solid;
+    border: #82CCDD 2px solid;
     padding: 10px;
     text-align: center;
 }
 
 .icon_pdf{
     width: 50px;
+}
+.row_title{
+    background-color: white;
+}
+.row1{
+    background-color: #B8E994;
+}
+.row2{
+    background-color: #F8C291;
 }
 /*--------------------------formation responsive------------------------------*/
 @media (max-width: 800px) {
@@ -143,7 +261,7 @@ td, th{
     color: red;
 }
 .divContact{
-    background-color: #87C0D9;
+    background-color: #82CCDD;
     border-radius: 25px;
     width: 60%;
     padding: 20px;
@@ -151,7 +269,7 @@ td, th{
 .divContact p{
     font-size: 20px;
     text-align: center;
-    text-shadow: #6B98B0 1px 0 5px;
+    text-shadow: white 1px 0 5px;
     color: black;
     margin: 0;
 }
@@ -171,10 +289,12 @@ section p {
     text-align: justify;
 }
 h3{
-    color: #171738;
+    color: white;
     font-size: 40px;
 }
 hr{
+    color: black;
+    border: 2px;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -187,12 +307,12 @@ hr{
 }
 /*-----------------------------------------------newsletter-------------------------------------*/
 .hrNewsletter{
-    color: #0A6FA8;
-    border-top: #0A6FA8 solid 2px;
+    color: white;
+    border-top: white solid 4px;
     margin-left: 0;
     margin-right: 0;
 }
-.mailBleu{
+.icon_mail{
     width: 40px;
 }
 /*------------------------------------------------footer----------------------------------------*/
@@ -203,19 +323,18 @@ footer{
     right: 0;
 }
 footer div:first-child{
-    background-color: #0A6FA8;
+    background-color: #82CCDD;
     display: flex;
     justify-content: center;
 }
 footer div:last-child{
-    background-color: black;
-
+    background-color: #B8E994;
     display: flex;
     justify-content: center;
 }
 footer p {
     margin: 7px;
-    color: #EFEFEF;
+    color: black;
 }
 footer a {
     text-decoration: none;

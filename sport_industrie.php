@@ -2,9 +2,6 @@
 require("template/header.php");
 ?>
     <section>
-        <img class="imgFirst" src="img/sport.png">
-    </section>
-    <section>
         <h3>Sport et industrie</h3>
         <div class="sport">
             <img src="img/sport.jpg">

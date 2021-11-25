@@ -24,13 +24,23 @@
                     <li>
                         <a aria-current="page" href="./formations.php">Formations</a>
                     </li>
-                    <li class="dropdown">
+                    <li class="dropdown ">
                         <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Vous êtes...
+                            Particulier
                         </a>
                         <ul class="dropdown-menu dd_menu" aria-labelledby="navbarDropdown">
-                            <li><a href="./particulier.php">Particulier</a></li>
-                            <li><a href="./professionnel.php">Professionnel</a></li>
+                            <li><a href="./formations.php">Formations</a></li>
+                            <li><a href="./info_admin.php">Informations administratives</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Professionnel
+                        </a>
+                        <ul class="dropdown-menu dd_menu" aria-labelledby="navbarDropdown">
+                            <li><a href="./interim.php">Formations interimaires</a></li>
+                            <li><a href="./sur_mesure.php">Prestations sur-mesure</a></li>
+                            <li><a href="./partenariat.php">Partenariat</a></li>
                         </ul>
                     </li>
                     <li>
