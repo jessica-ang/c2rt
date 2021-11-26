@@ -1,7 +1,7 @@
 <hr class="hrNewsletter">
 <section class="newsletter">
-    <h6>Abonnez-vous à notre newsletter</h6>
-    <form class="input-group mb-3" action="" method="post">
+    <h5>Abonnez-vous à notre newsletter</h5>
+    <form class="input-group mb-3 group_newsletter" action="" method="post">
             <input type="text" class="form-control" placeholder="Votre adresse email" aria-label="email" aria-describedby="button-addon2">
             <button class="btn btn-outline-dark" type="button" id="button-addon2" name="mail"><img class="icon_mail" src="img/icon_mail.png"></button>
     </form>
