@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6{
     font-family: "Lato bold";
 }
 a, a:visited{
-    color: #F8C291;
+    color: black;
 }
 /*------------------------------------header----------------------------------------------*/
 nav {
@@ -69,6 +69,13 @@ nav li:hover{
     color: white;
     font-weight: bold;
     text-align: justify;
+    text-shadow: black 2px 2px 3px;
+}
+.title_index{
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 3vw;
     text-shadow: black 2px 2px 3px;
 }
 .banner2{
@@ -192,14 +199,19 @@ li{
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
+    margin-top: 20px;
+    background-color: #B8E994;
+}
+.formations2{
+    background-color: #F8C291;
 }
 .formations div{
     width: 50%;
-    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 .formations img {
     width: 50%;
-    padding: 10px;
 }
 h4{
     font-size: 30px;
