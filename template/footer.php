@@ -7,14 +7,18 @@
     </form>
 </section>
 <footer>
-    <div>
-        <p>C2RT</p>
-        <p>Lieu-dit Bouy-Rte Périgueux</p>
-        <p>47500 FUMEL</p>
-        <p>Tél : 05 53 40 66 93</p>
-        <p>Mail : t.boulanges@c2rt.fr</p>
+    <div class="first_div">
+        <div>
+            <p>C2RT</p>
+            <p>Lieu-dit Bouy-Rte Périgueux</p>
+            <p>47500 FUMEL</p>
+        </div>
+        <div>
+            <p>Tél : 05 53 40 66 93</p>
+            <p>Mail : t.boulanges@c2rt.fr</p>
+        </div>
     </div>
-    <div>
+    <div class="last_div">
         <a href="./mention_legale.php"><p>Mentions legales</p></a>
         <a href="./confidentialite.php"><p>Politique de confidentialité</p></a>
     </div>

@@ -3,7 +3,7 @@ require("template/header.php");
 ?>
     <section>
         <h3>Sport et industrie</h3>
-        <div class="sport">
+        <div class="sport formations">
             <img src="img/sport.jpg">
             <div>
                 <h4></h4>

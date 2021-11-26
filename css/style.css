@@ -19,6 +19,9 @@ h1, h2, h3, h4, h5, h6{
 a, a:visited{
     color: black;
 }
+h6{
+    font-size: 25px;
+}
 /*------------------------------------header----------------------------------------------*/
 nav {
     background-color: #82CCDD;
@@ -168,7 +171,6 @@ section:first-child{
 /*-----------------------------------------------div color-------------------------------------------*/
 .div_green{
     background-color: #B8E994;
-    border-radius: 25px;
     padding: 15px;
     display: flex;
     flex-direction: column;
@@ -176,7 +178,6 @@ section:first-child{
     }
 .div_pink{
     background-color: #F8C291;
-    border-radius: 25px;
     padding: 15px;
 }
 /*--------------------------------------------team---------------------------------------------------*/
@@ -205,6 +206,12 @@ section:first-child{
 }
 .citation{
     font-style: italic;
+}
+/*---------------------------------responsive team--------------------------------------------------*/
+@media (max-width: 800px) {
+    .group_team {
+        flex-direction: column;
+    }
 }
 /*-----------------------------------------------formation-------------------------------------------*/
 .formations{
@@ -275,11 +282,9 @@ td, th{
 }
 .sport div{
     width: 70%;
-    padding: 10px;
 }
 .sport img {
     width: 30%;
-    padding: 10px;
 }
 /*----------------------------------------------contact---------------------------------------------*/
 .important{
@@ -353,12 +358,18 @@ footer{
     left: 0;
     right: 0;
 }
-footer div:first-child{
+.first_div{
     background-color: #82CCDD;
     display: flex;
+    flex-direction: row;
     justify-content: center;
 }
-footer div:last-child{
+footer div div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.last_div{
     background-color: #B8E994;
     display: flex;
     justify-content: center;
@@ -369,4 +380,14 @@ footer p {
 }
 footer a {
     text-decoration: none;
+}
+/*------------------------------------------responsive footer---------------------------------------*/
+@media (max-width: 800px) {
+    .first_div{
+        flex-direction: column;
+        align-items: center;
+    }
+    .newsletter{
+        margin-bottom: 30px;
+    }
 }
